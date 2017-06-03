@@ -102,7 +102,7 @@ namespace DocxToPdf.Converters
                                 return img;
                             }
                         };
-
+                        
                         XElement htmlElement = OpenXmlPowerTools.HtmlConverter.ConvertToHtml(document, settings);
                         XDocument html = new XDocument(new XDocumentType("html", null, null, null), htmlElement);
 
@@ -116,6 +116,6 @@ namespace DocxToPdf.Converters
             }
 
         }
-        
+
     }
 }

@@ -66,11 +66,20 @@
     <Reference Include="DocumentFormat.OpenXml, Version=0.0.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>packages\Open-XML-SDK.2.7.1\lib\net45\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
+    <Reference Include="ExCSS, Version=2.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ExCSS.2.0.6\lib\net451\ExCSS.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlRenderer, Version=1.5.0.5, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\HtmlRenderer.Core.1.5.0.5\lib\net45\HtmlRenderer.dll</HintPath>
     </Reference>
     <Reference Include="HtmlRenderer.PdfSharp, Version=1.5.0.6, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\HtmlRenderer.PdfSharp.1.5.0.6\lib\net45\HtmlRenderer.PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\Enzo Innocenzi\Desktop\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="OpenXmlPowerTools">
       <HintPath>..\..\..\Bibliothèques\OpenXmlPowerTools.dll</HintPath>
